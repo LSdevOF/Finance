@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profilo Finanziario</title>
+    <link rel="stylesheet" href="Prof.css">
+</head>
+<body>
+    <header>
+        <h1>Il Mio Profilo Finanziario</h1>
+    </header>
+    <div class="container">
+        <section id="profile">
+            <h2>Dati Personali</h2>
+            <div>
+                <label for="name">Nome:</label>
+                <input type="text" id="name">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email">
+            </div>
+            <div>
+                <label for="age">Età:</label>
+                <input type="number" id="age">
+            </div>
+            <div>
+                <label for="income">Reddito Mensile (€):</label>
+                <input type="number" id="income" placeholder="$1300">
+            </div>
+            <button id="saveProfile">Salva Profilo</button>
+        </section>
+        <section id="balance">
+            <h2>Bilancio Finanziario</h2>
+            <div>
+                <label for="savings">Risparmi (€):</label>
+                <span id="savings">$0</span>
+            </div>
+            <div>
+                <label for="expenses">Spese Mensili (€):</label>
+                <input type="number" id="expenses" placeholder="$1200">
+            </div>
+            <button id="updateBalance">Aggiorna Bilancio</button>
+        </section>
+    </div>
+    <script src="Prof.js"></script>
+</body>
+</html>
